@@ -114,7 +114,7 @@ class Slider extends Component {
     const { images, index, translateValue, autoplay } = this.state;
     return (
       <div className="slider">
-        <input type="number" className="input-number" placeholder="Enter Number of Slides" onChange={this.onChange.bind(this)}></input>
+        <input type="number" className="input-number" placeholder="Enter Number" onChange={this.onChange.bind(this)}></input>
         <div className="slider-wrapper"
           style={{
             transform: `translateX(${translateValue}px)`,
